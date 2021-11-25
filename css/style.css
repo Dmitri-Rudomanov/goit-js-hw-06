@@ -27,3 +27,19 @@ li{
 	margin-bottom: 15px;
 }
 
+.gallery{
+
+}
+.gallery__image{
+margin-bottom: 20px;
+
+}
+.gallery__image:last-child{
+margin-bottom: 0px;
+
+}
+
+.gallery__image img{
+width: 300px;
+height: 200px;
+}
