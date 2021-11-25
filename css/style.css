@@ -51,3 +51,6 @@ height: 200px;
 #counter span{
 	font-size: 20px;
 }
+input{
+	height: 20px;
+}
