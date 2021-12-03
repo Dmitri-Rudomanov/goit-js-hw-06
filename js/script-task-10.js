@@ -9,7 +9,6 @@ function getRandomHexColor() {
 }
 
 const onBtnCreateClick = (event) => {
-    destroyBoxes()
     createBoxes(input.value)
 }
 function createBoxes(amount) {
@@ -25,6 +24,7 @@ function createBoxes(amount) {
 
 const destroyBoxes = (event) => {
     boxes.innerHTML = ""
+    input.value=""
     arr=[]
 }
 
