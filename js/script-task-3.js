@@ -18,7 +18,9 @@ const gallery = document.querySelector(".gallery")
 // const imgCode=`<li class="gallery__image"><img src=${item.url} alt="${item.alt}"></li>`
 // gallery.insertAdjacentHTML("beforeend",imgCode)
 // })
+
 let ImgMarkup = images.map(item => `<li class="gallery__image"><img src=${item.url} alt="${item.alt}"></li>`
 ).join('')
 console.log(ImgMarkup)
+
 gallery.insertAdjacentHTML("beforeend",ImgMarkup)
